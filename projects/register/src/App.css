@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+form {
+  width: 380px;
+  margin: 60px auto 0 auto;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 23px 27px 57px 0px #ababab;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #777;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 33px;
+}
+
+p {
+  margin-left: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #303030;
+  font-size: 16px;
+}
+
+input {
+  padding: 5px 0 5px 0;
+  width: 340px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+  margin: 10px 0 15px 10px;
+  border-radius: 8px;
+  border: solid 1px #777;
+  text-align: center;
+  display: block;
+}
+
+.term {
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  width: auto; 
+  text-decoration: none;
+  color: #4d785c;
+  font-weight: 600;
+}
+a:hover {
+  color: #8ab79a;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.butn {
+  font-family: 'Montserrat', sans-serif;
+  background: #177E46;
+  color: #fff;
+  border: none;
+  width: auto;
+  padding: 15px 39px;
+  border-radius: 5px;
+  margin-top: 25px;
+  margin-left: 52px;
+  cursor: pointer; 
+}
+.butn:hover {
+  background: #5f9c7b; 
+}
+
+.autoriz {
+  margin-top: 20px;
+  margin-left: 128px;
+}
